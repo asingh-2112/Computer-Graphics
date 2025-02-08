@@ -1,1 +1,26 @@
-ajsjn
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebGL Ear Clipping With Shape Selection</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="shape-id-display">Selected Shape: None</div>
+  <button id="clear-canvas-button">Clear Canvas</button>
+  <input type="color" id="color-picker" value="#ff0000" />
+  <div id="controls">
+    <button id="toggle-cursor">Hide Cursor</button>
+    <button id="toggle-cursor-interaction">Disable Cursor</button>
+  </div>
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Include the JS files in order -->
+  <script src="js/glUtils.js"></script>
+  <script src="js/triangulation.js"></script>
+  <script src="js/shapes.js"></script>
+  <script src="js/eventHandlers.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

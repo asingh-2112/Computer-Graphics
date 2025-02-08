@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  
+  canvas {
+    display: block;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #000;
+    background: #fff;
+  }
+  
+  #shape-id-display {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  #clear-canvas-button {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding: 5px 10px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #clear-canvas-button:hover {
+    background: #cc0000;
+  }
+  
+  #color-picker {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+  }
+  
+  #controls {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  #controls button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #444;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #controls button:hover {
+    background: #666;
+  }
+  
